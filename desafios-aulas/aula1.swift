@@ -66,7 +66,7 @@ struct Desafio3: View {
             VStack{
                 Text("Bem vindo, "+givenName)
                 
-                TextField( "Seu nome", text: $givenName)
+                TextField("Seu nome", text: $givenName)
                     .multilineTextAlignment(.center)
                 
                 Spacer()
