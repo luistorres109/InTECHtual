@@ -24,7 +24,3 @@ struct PaintBrushView: View {
         }
     }
 }
-
-#Preview {
-    PaintBrushView()
-}
