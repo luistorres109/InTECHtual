@@ -21,11 +21,6 @@ struct InkView: View {
                         .resizable()
                         .foregroundColor(.gray)
                         .frame(width: 200, height: 200))
-        }
-        
+        } 
     }
-}
-
-#Preview {
-    InkView()
 }
