@@ -7,7 +7,7 @@ struct ContentView: View {
     @State private var peso2: Double = 0
     @State private var altura2: Double = 0
     @State private var imc: Double = 0
-    @State private var cor: Color = .white
+    @State private var cor: Color = .green
     var body: some View {
         ZStack{
             cor
@@ -47,7 +47,7 @@ struct ContentView: View {
                         peso2 = Double(peso) ?? 0
                         altura2 = Double(altura) ?? 0
                         
-                        imc = peso2/altura2
+                        imc = peso2/(altura2 * altura2)
                         
                         if imc <= 18.5{
                             situacao = "Baixo peso"
