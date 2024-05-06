@@ -16,6 +16,5 @@ struct BrushView: View {
                         .foregroundColor(.pink)
                         .frame(width: 200, height: 200))
         }
-        
     }
 }
