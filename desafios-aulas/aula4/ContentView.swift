@@ -11,7 +11,6 @@ var musicas = [
     Song(id: 1, name:"Fear of the Dark", artist:"Iron Maiden", capa:"https://whiplash.net/imagens_promo_22/ironmaiden_fearofthedark.jpg"),
     Song(id: 2, name:"The Day That Never Comes", artist:"Metallica", capa:"https://i.scdn.co/image/ab67616d0000b273cc3d90a213c4c577b37497ec"),
     Song(id: 3, name:"Metal is the Law", artist:"Massacration", capa:"https://akamai.sscdn.co/uploadfile/letras/albuns/7/9/b/6/11413.jpg"),
-    
     Song(id: 4, name:"Chop Suey", artist:"System of a Down", capa:"https://i.ytimg.com/vi/CSvFpBOe8eY/maxresdefault.jpg"),
 ]
 
@@ -75,13 +74,13 @@ struct ContentView: View {
                                     Text(m.name)
                                         .frame(width: 300, alignment: .leading)
                                         .foregroundColor(.white)
+                                        .bold()
                                     Spacer()
                                         .frame(height: 10)
                                     Text(m.artist)
                                         .frame(width: 300, alignment: .leading)
                                         .foregroundColor(.white)
                                 }
-                                
                             }
                         }
                     }
@@ -89,8 +88,4 @@ struct ContentView: View {
             }
         }
     }
-}
-
-#Preview {
-    ContentView()
 }
