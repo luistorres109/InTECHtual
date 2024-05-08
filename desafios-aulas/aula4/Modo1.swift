@@ -1,10 +1,3 @@
-//
-//  Modo1.swift
-//  Aula01
-//
-//  Created by Turma02-19 on 07/05/24.
-//
-
 import SwiftUI
 
 struct Modo1: View {
