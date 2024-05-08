@@ -11,4 +11,4 @@
 - Criar uma *tab* de navegação para outras/os telas/arquivos.
 - Criar *links* de navegação para outras/os telas/arquivos, um que tenha uma *SheetView*.
 
-**Aula 4:** Criar uma *lista* (estilo ***Spotify***) de músicas, que levem para um outro arquivo como se fossem toca-lá, com a capa apareendo.
+**Aula 4:** Criar uma *lista* (estilo ***Spotify***) de músicas, que levem para um outro arquivo como se fossem toca-lá, com a capa aparecendo.
