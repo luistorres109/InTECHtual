@@ -43,10 +43,21 @@ struct ContentView: View {
             }
             
             VStack{
-                Text("World Map")
-                Text(pais1)
+                Rectangle()
+                    .foregroundColor(.white)
+                    .opacity(0.5)
+                    .frame(width: 600, height: 150)
+                    .ignoresSafeArea()
+                    .overlay(
+                        VStack{
+                            Text("World map")
+                                .font(.title)
+                                .padding(.top, -65)
+                            Text(pais1)
+                                .padding(.top, -35)
+                        })
+                
                 Spacer()
-                    .frame(height: 550)
                 HStack(spacing: 30){
                     ForEach(cidades) { e in
                         AsyncImage(url: URL(string: e.flag)) { image in
@@ -61,7 +72,7 @@ struct ContentView: View {
                         .onTapGesture {
                             position = MapCameraPosition.region(MKCoordinateRegion(
                                 center: e.coordinate,
-                                span: MKCoordinateSpan(latitudeDelta: 1000, longitudeDelta: 1000)
+                                span: MKCoordinateSpan(latitudeDelta: 1, longitudeDelta: 1)
                                 ))
                             pais1 = e.pais
                         }
