@@ -20,7 +20,7 @@ struct ContentView: View {
                             ProgressView()
                         }
                         .frame(width: 90, height: 90)
-                        .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                        .clipShape(Circle())
                         
                         VStack{
                             Text(c.name!)
