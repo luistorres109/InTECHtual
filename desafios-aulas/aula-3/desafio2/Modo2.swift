@@ -31,15 +31,15 @@ struct Modo2: View {
                                 .multilineTextAlignment(.center)
                                 .foregroundColor(.white)
                                 .frame(width: 300)
-                                .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                                .font(.title)
                                 .bold()
                             Spacer()
                                 .frame(height: 75)
                             
                             Rectangle()
                                 .frame(width: 150, height: 40)
-                                .cornerRadius(/*@START_MENU_TOKEN@*/3.0/*@END_MENU_TOKEN@*/)
-                                .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+                                .cornerRadius/3.0)
+                                .foregroundColor(.blue)
                                 .overlay(NavigationLink(destination: Modo3(nome: nome)){
                                     Text("Acessar Tela")
                                         .bold()
