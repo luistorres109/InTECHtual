@@ -14,3 +14,5 @@
 **Aula 4:** Criar uma *lista* (estilo ***Spotify***) de músicas, que levem para um outro arquivo como se fossem toca-lá, com a capa aparecendo.
 
 **Aula 5:** Criar um mapa (*map*) que redirecione para 3 localidades, usando imagens das bandeiras de seus países como navegação, e também mostre uma descrição sobre o local.
+
+**Aula 6:** Importar uma API aleatória e exibir os dados sobre a tela.
