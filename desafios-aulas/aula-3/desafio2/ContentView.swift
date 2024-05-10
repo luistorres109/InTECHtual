@@ -1,5 +1,4 @@
 import SwiftUI
-import MapKit
 
 struct ContentView: View {
     @State private var show: Bool = false
