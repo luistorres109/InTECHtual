@@ -78,7 +78,6 @@ struct ContentView: View {
                     .resizable()
                     .frame(width: 400, height: 250)
             }
-            
         }
     }
 }
