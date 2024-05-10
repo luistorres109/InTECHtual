@@ -11,7 +11,7 @@ struct Modo1: View {
             VStack{
                 Text("Modo 1")
                     .foregroundStyle(.white)
-                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                    .font(.title)
                     .bold()
                 Spacer()
                     .frame(height: 200)
