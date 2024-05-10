@@ -10,7 +10,7 @@ struct Modo3: View {
             VStack{
                 Text("Modo 2")
                     .foregroundStyle(.white)
-                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                    .font(.title)
                     .bold()
                 Spacer()
                     .frame(height: 200)
