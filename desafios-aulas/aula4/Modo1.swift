@@ -45,15 +45,9 @@ struct Modo1: View {
                         .resizable()
                         .foregroundColor(.white)
                         .frame(width:40, height:40)
-                }//.padding()
-               // .frame(width: 400, alignment: .center)
-                
+                }
                 Spacer()
             }
         }
     }
-}
-
-#Preview {
-    Modo1(x: Song(id: 1, name:"Fear of the Dark", artist:"Iron Maiden", capa:"https://whiplash.net/imagens_promo_22/ironmaiden_fearofthedark.jpg"))
 }
