@@ -22,7 +22,7 @@ struct Modo3: View {
                         .multilineTextAlignment(.center)
                         .foregroundColor(.white)
                         .frame(width: 300)
-                        .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                        .font(.title)
                         .bold())
                 Spacer()
                     .frame(height: 200)
