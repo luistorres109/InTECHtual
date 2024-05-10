@@ -11,7 +11,7 @@ struct SheetView: View {
             VStack{
                 Text("Modo 3")
                     .foregroundStyle(.white)
-                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                    .font(.title)
                     .bold()
                 Spacer()
                     .frame(height: 200)
