@@ -7,7 +7,7 @@
 
 **Aula 2:** Criar uma calculadora IMC que informe a situação e uma tabela com os calculos.
 
-**Aula3:** Navegação:
+**Aula 3:** Navegação:
 - Criar uma *tab* de navegação para outras/os telas/arquivos.
 - Criar *links* de navegação para outras/os telas/arquivos, um que tenha uma *SheetView*.
 
