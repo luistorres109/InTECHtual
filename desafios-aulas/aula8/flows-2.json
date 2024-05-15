@@ -1,0 +1,416 @@
+[
+    {
+        "id": "e86f1d01884d68f9",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c9d32d141799cc2d",
+        "type": "http in",
+        "z": "e86f1d01884d68f9",
+        "name": "Get [CREATE]",
+        "url": "/getting",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 190,
+        "y": 100,
+        "wires": [
+            [
+                "3ad5efb167c844f5",
+                "5221dcdc2ca7749b"
+            ]
+        ]
+    },
+    {
+        "id": "9f23e364304ad40c",
+        "type": "http response",
+        "z": "e86f1d01884d68f9",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 670,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "3ad5efb167c844f5",
+        "type": "debug",
+        "z": "e86f1d01884d68f9",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "5221dcdc2ca7749b",
+        "type": "cloudantplus out",
+        "z": "e86f1d01884d68f9",
+        "name": "",
+        "cloudant": "3e597fcc95f690b1",
+        "database": "filecomfritas",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "insert",
+        "x": 430,
+        "y": 100,
+        "wires": [
+            [
+                "9f23e364304ad40c"
+            ]
+        ]
+    },
+    {
+        "id": "7d82889716b3930b",
+        "type": "http in",
+        "z": "e86f1d01884d68f9",
+        "name": "Post [CREATE]",
+        "url": "/posting",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 100,
+        "y": 420,
+        "wires": [
+            [
+                "63a6711018e9614c",
+                "f43115b6f2203d3f"
+            ]
+        ]
+    },
+    {
+        "id": "52cb1b778894f00f",
+        "type": "http response",
+        "z": "e86f1d01884d68f9",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 670,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "63a6711018e9614c",
+        "type": "debug",
+        "z": "e86f1d01884d68f9",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "8fe5d9ab0291a79b",
+        "type": "cloudantplus out",
+        "z": "e86f1d01884d68f9",
+        "name": "",
+        "cloudant": "3e597fcc95f690b1",
+        "database": "filecomfritas",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "insert",
+        "x": 470,
+        "y": 420,
+        "wires": [
+            [
+                "52cb1b778894f00f"
+            ]
+        ]
+    },
+    {
+        "id": "6050883a14816294",
+        "type": "http in",
+        "z": "e86f1d01884d68f9",
+        "name": "Put [UPDATE]",
+        "url": "/putting",
+        "method": "put",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 190,
+        "y": 740,
+        "wires": [
+            [
+                "34d1341fecc70b3b",
+                "60d5807690e95c10"
+            ]
+        ]
+    },
+    {
+        "id": "7ea7c240b986ec20",
+        "type": "http response",
+        "z": "e86f1d01884d68f9",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 670,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "34d1341fecc70b3b",
+        "type": "debug",
+        "z": "e86f1d01884d68f9",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "60d5807690e95c10",
+        "type": "cloudantplus out",
+        "z": "e86f1d01884d68f9",
+        "name": "",
+        "cloudant": "3e597fcc95f690b1",
+        "database": "filecomfritas",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "insert",
+        "x": 430,
+        "y": 740,
+        "wires": [
+            [
+                "7ea7c240b986ec20"
+            ]
+        ]
+    },
+    {
+        "id": "d18d521c43095eba",
+        "type": "http in",
+        "z": "e86f1d01884d68f9",
+        "name": "Patching [UPDATE]",
+        "url": "/patching",
+        "method": "patch",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 210,
+        "y": 1040,
+        "wires": [
+            [
+                "28a51ad578c3fa3b",
+                "b29c63993fd79cc3"
+            ]
+        ]
+    },
+    {
+        "id": "e17d5df03aca7628",
+        "type": "http response",
+        "z": "e86f1d01884d68f9",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 690,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "28a51ad578c3fa3b",
+        "type": "debug",
+        "z": "e86f1d01884d68f9",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "b29c63993fd79cc3",
+        "type": "cloudantplus out",
+        "z": "e86f1d01884d68f9",
+        "name": "",
+        "cloudant": "3e597fcc95f690b1",
+        "database": "filecomfritas",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "insert",
+        "x": 470,
+        "y": 1040,
+        "wires": [
+            [
+                "e17d5df03aca7628"
+            ]
+        ]
+    },
+    {
+        "id": "4b281832a1890fa4",
+        "type": "http in",
+        "z": "e86f1d01884d68f9",
+        "name": "DELETE",
+        "url": "/deleting",
+        "method": "delete",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 100,
+        "y": 1320,
+        "wires": [
+            [
+                "b24753a7600f7255",
+                "c70fc8cba6a9340c"
+            ]
+        ]
+    },
+    {
+        "id": "860bd28663f1e0dd",
+        "type": "http response",
+        "z": "e86f1d01884d68f9",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 670,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "b24753a7600f7255",
+        "type": "debug",
+        "z": "e86f1d01884d68f9",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 630,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "c70fc8cba6a9340c",
+        "type": "cloudantplus out",
+        "z": "e86f1d01884d68f9",
+        "name": "",
+        "cloudant": "3e597fcc95f690b1",
+        "database": "filecomfritas",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "delete",
+        "x": 450,
+        "y": 1320,
+        "wires": [
+            [
+                "860bd28663f1e0dd"
+            ]
+        ]
+    },
+    {
+        "id": "836f51f4c7ffc1b0",
+        "type": "http in",
+        "z": "e86f1d01884d68f9",
+        "name": "Get [READING]",
+        "url": "/reading",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 160,
+        "y": 1600,
+        "wires": [
+            [
+                "8ba90c4ad0cf8ff1",
+                "da94ad8d92f6f826"
+            ]
+        ]
+    },
+    {
+        "id": "bb523d094b4a70ee",
+        "type": "http response",
+        "z": "e86f1d01884d68f9",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 630,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "8ba90c4ad0cf8ff1",
+        "type": "debug",
+        "z": "e86f1d01884d68f9",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 630,
+        "y": 1760,
+        "wires": []
+    },
+    {
+        "id": "da94ad8d92f6f826",
+        "type": "cloudantplus in",
+        "z": "e86f1d01884d68f9",
+        "name": "",
+        "cloudant": "3e597fcc95f690b1",
+        "database": "filecomfritas",
+        "service": "_ext_",
+        "search": "_all_",
+        "design": "",
+        "index": "",
+        "x": 410,
+        "y": 1600,
+        "wires": [
+            [
+                "bb523d094b4a70ee"
+            ]
+        ]
+    },
+    {
+        "id": "f43115b6f2203d3f",
+        "type": "split",
+        "z": "e86f1d01884d68f9",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 290,
+        "y": 420,
+        "wires": [
+            [
+                "8fe5d9ab0291a79b"
+            ]
+        ]
+    },
+    {
+        "id": "3e597fcc95f690b1",
+        "type": "cloudantplus",
+        "host": "https://3e3afcde-b7e3-44b2-845e-40261f160a03-bluemix.cloudantnosqldb.appdomain.cloud",
+        "name": "Matheus2410",
+        "useapikey": true
+    }
+]
