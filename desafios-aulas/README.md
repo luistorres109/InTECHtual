@@ -18,3 +18,5 @@
 **Aula 6:** Importar uma API aleatória e exibir os dados sobre a tela.
 
 **Aula 7:** Criar um **CRUD** para uma API usando *Node-RED*.
+
+**Aula 8:** Criar uma API própria, zerando a anterior e inserindo os novos dados em *Array*; em seguida importá-la e criar uma tela em *Swift* que exiba os dados, que nem a atividade da *aula 6*.
