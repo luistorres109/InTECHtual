@@ -20,3 +20,10 @@
 **Aula 7:** Criar um **CRUD** para uma API usando *Node-RED*.
 
 **Aula 8:** Criar uma API própria, zerando a anterior e inserindo os novos dados em *Array*; em seguida importá-la e criar uma tela em *Swift* que exiba os dados, que nem a atividade da *aula 6*.
+
+**Aula 9:** Usar o *Watson X* para:
+- Traduzir uma palavra para o Inglês;
+- Traduzir uma palavra/frase para outro idioma diferente do Inglês;
+- FALAR em PT e obter texto em OUTRO idioma;
+- Traduzir TEXTO em PT para outro idioma em ÁUDIO; e
+- Enviar saídas de TEXTO para o *CLOUDANT*.
