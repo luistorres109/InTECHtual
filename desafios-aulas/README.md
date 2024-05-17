@@ -29,3 +29,5 @@
 - Enviar saídas de TEXTO para o *CLOUDANT*.
 
 **Aula 10:** Criar um circuito com um **sensor de umidade** para medir a umidade de um copo, *plugar* na maquina, usar a IDE do ***Arduino*** para conectar à entrada/porta e, com o *Script* pronto, testar o sensor.
+
+**Aula 11:** Montar um circuito para medir a *voltagem* do gás, testar com Arduino IDE como na aula 10, *plotar* os dados para uma API com Node-RED, e exibi-los no **SwiftUI**.
