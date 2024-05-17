@@ -28,4 +28,4 @@
 - Traduzir TEXTO em PT para outro idioma em ÁUDIO; e
 - Enviar saídas de TEXTO para o *CLOUDANT*.
 
-**Aula 10:** Criar um circuito com um **sensor de umidade** para medir a umidade de um copo, *plugar* na maquina, e usar a IDE do ***Arduino*** para conectar à entrada/porta e, com o *Script* pronto, testar o sensor.
+**Aula 10:** Criar um circuito com um **sensor de umidade** para medir a umidade de um copo, *plugar* na maquina, usar a IDE do ***Arduino*** para conectar à entrada/porta e, com o *Script* pronto, testar o sensor.
