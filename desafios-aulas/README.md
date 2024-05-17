@@ -21,9 +21,11 @@
 
 **Aula 8:** Criar uma API própria, zerando a anterior e inserindo os novos dados em *Array*; em seguida importá-la e criar uma tela em *Swift* que exiba os dados, que nem a atividade da *aula 6*.
 
-**Aula 9:** Usar o *Watson X* para:
+**Aula 9:** Usar o *Watson X* do *Node-Red* para:
 - Traduzir uma palavra para o Inglês;
 - Traduzir uma palavra/frase para outro idioma diferente do Inglês;
 - FALAR em PT e obter texto em OUTRO idioma;
 - Traduzir TEXTO em PT para outro idioma em ÁUDIO; e
 - Enviar saídas de TEXTO para o *CLOUDANT*.
+
+**Aula 10:** Criar um circuito com um **sensor de umidade** para medir a umidade de um copo, *plugar* na maquina, e usar a IDE do ***Arduino*** para conectar à entrada/porta e, com o *Script* pronto, testar o sensor.
