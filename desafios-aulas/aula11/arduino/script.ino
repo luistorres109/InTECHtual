@@ -1,4 +1,4 @@
-// Script não feito por mim
+// Código não foi feito por mim
 const int sensorPin = A0; // Pino analógico conectado ao sensor MQ3
 int sensorValue; // Variável para armazenar o valor lido do sensor
 
