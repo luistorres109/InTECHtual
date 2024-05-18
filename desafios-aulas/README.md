@@ -1,4 +1,4 @@
-# Desafios
+# Desafios das Aulas do Hackatruck
 
 **Aula 1:** Criar três telas:
 - Uma com quatro quadrado coloridos;
