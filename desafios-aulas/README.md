@@ -1,7 +1,7 @@
 # Desafios das Aulas do Hackatruck
 
 **Aula 1:** Criar três telas:
-- Uma com quatro quadrado coloridos;
+- Uma com quatro quadrados coloridos;
 - Uma com uma foto circular e três textos coloridos do lado, tudo simétrico; e
 - Criar um menu com botão de alerta.
 
