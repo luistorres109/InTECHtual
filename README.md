@@ -4,6 +4,6 @@ Repositório criado para fins acadêmicos durante o **Hackatruck 2024**, na *Uno
 
 **Palavra:** *Conhecimento*.
 
-**Ideia:** *InTECHtutal*; *checklist* para monitorar o andamento da rotina de estudos.
+**Ideia:** *InTECHtutal*; *checklist* para monitoramento da rotina de estudos.
 
 **Colaboradores:** Cauê Santi, Diogo Augusto Benedet, João Pedro Vogel Costa, Luis Miguel Torres R. e Miguel Marocco
