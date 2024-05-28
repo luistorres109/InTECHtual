@@ -9,7 +9,6 @@ struct ChecklistView: View {
     
     @State var teste : batata?
     var body: some View {
-        
         VStack {
             HStack{
                 Text("Checklist")
@@ -91,10 +90,8 @@ struct ChecklistView: View {
                 Spacer()
             }.padding(.leading, 20)
             
-            
         }.onAppear(){
             tempoLivre.fetch()
         }
     }
-    
 }
