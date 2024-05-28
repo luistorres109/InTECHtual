@@ -12,13 +12,13 @@ Sua rotina de estudos personalizada.
 
 ## Rotas:
 ### Front:
-- /swift/Ajustes - Página de Ajustes.
-- /swift/Checklist - Página de Checklist.
-- /swift/Noticias - Página de Notícias.
-- /swift/Testes - Página de Testes de Personalidade.
-- /wireframes - Wireframes das telas.
+- `/swift/Ajustes` - Página de Ajustes.
+- `/swift/Checklist` - Página de Checklist.
+- `/swift/Noticias` - Página de Notícias.
+- `/swift/Testes` - Página de Testes de Personalidade.
+- `/wireframes` - Wireframes das telas.
 
 ### Back:
-- /node_red.json - Esquema feito no Node-RED com *Cloudant* para enviar os dados para a API.
-- /swift/Noticias/Structs - Struct e conexão para puxar a API de Notícias.
-- /swift/Checklist/Structs - Struct e conexão para puxar/conectar/atualzar a/à API feita no Node-RED.
+- `/node_red.json` - Esquema feito no Node-RED com *Cloudant* para enviar os dados para a API.
+- `/swift/Noticias/Structs` - Struct e conexão para puxar a API de Notícias.
+- `/swift/Checklist/Structs` - Struct e conexão para puxar/conectar/atualzar a/à API feita no Node-RED.
