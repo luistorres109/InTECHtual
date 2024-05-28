@@ -1,10 +1,3 @@
-//
-//  Question.swift
-//  InTECHtual
-//
-//  Created by Turma02-19 on 24/05/24.
-//
-
 import Foundation
 
 struct Question: Identifiable {
