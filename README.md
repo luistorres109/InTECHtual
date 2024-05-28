@@ -2,7 +2,7 @@
 
 Sua rotina de estudos personalizada.
 
-**Colaboradores:** Cauê Santi, Diogo Augusto Benedet, João Pedro Vogel Costa, Luis Miguel Torres R. e Miguel Marocco.
+**Colaboradores:** Cauê Santi, Diogo Augusto Benedet, João Pedro Vogel Costa, Luís Miguel Torres R. e Miguel Marocco.
 
 ## Ferramentas:
 
@@ -21,4 +21,4 @@ Sua rotina de estudos personalizada.
 ### Back:
 - `/node_red.json` - Esquema feito no Node-RED com *Cloudant* para enviar os dados para a API.
 - `/swift/Noticias/Structs` - Struct e conexão para puxar a API de Notícias.
-- `/swift/Checklist/Structs` - Struct e conexão para puxar/conectar/atualzar a/à API feita no Node-RED.
+- `/swift/Checklist/Structs` - Struct e conexão para puxar/conectar/atualizar a/à API feita no Node-RED.
