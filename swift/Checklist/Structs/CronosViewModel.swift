@@ -1,25 +1,13 @@
-//
-//  File.swift
-//  InTECHtual
-//
-//  Created by Turma02-8 on 27/05/24.
-//
-
-
 import Foundation
 
 class CronosViewModel:ObservableObject {
-    
     @Published var cronos: [batata] = []
-    
     func fetch() {
-        
         guard let url = URL(string:"http://192.168.128.30:1880/getproject") else {
             return
         }
         
         let task = URLSession.shared.dataTask(with: url) { [weak self] data, _, error in
-            
             guard let data = data, error == nil else{
                 return
             }
@@ -37,7 +25,6 @@ class CronosViewModel:ObservableObject {
     }
     
     func post(_ b : batata) {
-        
         guard let url = URL(string:"http://192.168.128.55:1880/postproject") else {
             return
         }
@@ -72,6 +59,4 @@ class CronosViewModel:ObservableObject {
         }
         task.resume()
     }
-    
-    
 }
