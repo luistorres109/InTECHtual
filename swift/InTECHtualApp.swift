@@ -1,10 +1,3 @@
-//
-//  InTECHtualApp.swift
-//  InTECHtual
-//
-//  Created by Turma02-19 on 24/05/24.
-//
-
 import SwiftUI
 
 @main
