@@ -82,7 +82,3 @@ struct QuizView: View {
         .padding()
     }
 }
-
-#Preview{
-    QuizView()
-}
