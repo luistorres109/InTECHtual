@@ -7,7 +7,7 @@ Sua rotina de estudos personalizada.
 ## Ferramentas:
 
 - **Front:** Canva, Swift, SwiftUI, XCode.
-- **Back:** IBM Cloudant, Node-RED, Swift.
+- **Back:** IBM Cloudant, Node-RED, Swift, Postman.
 - **API Notícias:** https://newsdata.io/api/1/latest?apikey=pub_44656b7eac5f5fd4bc6970acccd7d677e750b&q=pegasus&language=en
 
 ## Rotas:
